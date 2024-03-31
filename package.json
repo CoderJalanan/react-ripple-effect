@@ -1,0 +1,40 @@
+{
+  "name": "react-waves-effect",
+  "version": "1.5.0",
+  "main": "lib/index.js",
+  "private": false,
+  "description": "Waves effect react component!",
+  "types": "lib",
+  "scripts": {
+    "clean": "rimraf lib/",
+    "copy-files": "copyfiles -f \"main/src/react-waves-effect/**/*.html\" \"main/src/react-waves-effect/**/*.css\" lib",
+    "build": "yarn clean && tsc -p . && yarn copy-files"
+  },
+  "author": "LeulAria",
+  "license": "ISC",
+  "keywords": [
+    "react",
+    "waves",
+    "waves effect",
+    "ripple effect",
+    "react waves",
+    "react ripple",
+    "react wave effect",
+    "react ripple effect",
+    "react waves effects",
+    "react ripples effects",
+    "react waves component",
+    "react ripples component",
+    "react waves effect component",
+    "react ripple effect components"
+  ],
+  "peerDependencies": {
+    "react": ">=16.3.0"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.5"
+  },
+  "repository": "LeulAria/react-waves-effect"
+}
